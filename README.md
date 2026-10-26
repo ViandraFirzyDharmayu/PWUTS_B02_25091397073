@@ -1,4 +1,4 @@
-WEB PEMINJAMAN ALAT
+# WEB PEMINJAMAN ALAT
 
 UTS Pemrograman Web – Gasal 2026/2027
 Dosen: Bapak Ari Kurniawan, S.Kom, M.T.
@@ -25,7 +25,7 @@ Layout dasar mengikuti wireframe SRS (header, navigasi, area konten), sedangkan 
 
 Cara menjalankan
 
-# Ajax dan pengiriman form membutuhkan server HTTP, sehingga `index.html` tidak bisa dibuka dengan klik ganda.
+Ajax dan pengiriman form membutuhkan server HTTP, sehingga `index.html` tidak bisa dibuka dengan klik ganda.
 
 ```
 cd PWUTS_B02_25091397073
