@@ -3,6 +3,7 @@
 UTS Pemrograman Web – Gasal 2026/2027
 Dosen: Bapak Ari Kurniawan, S.Kom, M.T.
 
+|   |   |
 |---|---|
 | Nama | Viandra Firzy Dharmayu |
 | NIM | 25091397073 |
@@ -37,11 +38,11 @@ Data akun baru dari form tersimpan di `data/akun.json` (dibuat otomatis).
 
 | Item | File | Keterangan |
 |---|---|---|
-| 2.a Homepage | `index.html`, `css/style.css`, `js/app.js`, `img/` | Layout utama responsif dengan sidebar. Menu memuat halaman lain lewat Ajax. |
-| 2.b Halaman konten interaktif | `pages/log.html` | Log aktivitas dan simulasi keamanan. |
-| 2.c Halaman form + validasi | `pages/akun.html`, `server.py` | Form tambah akun, divalidasi jQuery sebelum dikirim ke server. |
-| Halaman tambahan | `pages/backup.html` | Backup dan restore database (simulasi). |
-| 2.e Catatan | `README.md` | Dokumen ini. |
+| 2.a Homepage | index.html, css/style.css, js/app.js, img/ | Layout utama responsif dengan sidebar. Menu memuat halaman lain lewat Ajax. |
+| 2.b Halaman konten interaktif | pages/log.html | Log aktivitas dan simulasi keamanan. |
+| 2.c Halaman form + validasi | pages/akun.html, server.py | Form tambah akun, divalidasi jQuery sebelum dikirim ke server. |
+| Halaman tambahan | pages/backup.html | Backup dan restore database (simulasi). |
+| 2.e Catatan | README.md | Dokumen ini. |
 
 ## Penjelasan fitur
 
