@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Konsol Admin Sistem – PinjamAlat</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<aside id="side">
+ <a class="brand" href="#beranda" data-page="beranda">PinjamAlat<small>Konsol Admin Sistem</small></a>
+ <nav aria-label="Menu utama">
+  <a href="#beranda" data-page="beranda" class="aktif">Ringkasan</a>
+  <a href="#log" data-page="log">Log &amp; Keamanan</a>
+  <a href="#akun" data-page="akun">Tambah Akun</a>
+  <a href="#backup" data-page="backup">Backup &amp; Restore</a>
+ </nav>
+ <p class="who">Masuk sebagai<br><b>adminsistem</b></p>
+</aside>
+<div id="body">
+ <header><button id="menuBtn" aria-label="Buka menu">Menu</button><span>Sistem Peminjaman Alat Pendukung Praktikum · MI 2025</span></header>
+ <main id="isi">
+  <section class="hero">
+   <div>
+    <h1>Semua akun, sesi, dan jejak aktivitas dipantau dari satu layar.</h1>
+    <p>Admin Sistem mengatur akun pengguna, menjaga keamanan login, dan memastikan setiap perubahan data tercatat.</p>
+    <p><a class="btn" href="#akun" data-page="akun">Tambah akun baru</a> <a class="btn alt" href="#log" data-page="log">Buka log aktivitas</a></p>
+   </div>
+   <img src="img/admin.jpg" alt="Ilustrasi admin sistem yang memantau layar">
+  </section>
+  <div class="stats" id="stats"></div>
+  <h2>Tanggung jawab Admin Sistem</h2>
+  <ul class="tugas">
+   <li><b>Akun</b>Tambah, ubah, blokir, dan reset password Mahasiswa dan Admin Lab.</li>
+   <li><b>Keamanan</b>Akun terkunci setelah 5 kali gagal login; sesi punya batas waktu.</li>
+   <li><b>Backup &amp; restore</b>Cadangkan database dan pulihkan saat terjadi kegagalan. <a href="#backup" data-page="backup">Buka halaman backup</a></li>
+   <li><b>Audit</b>Login, perubahan data, dan transaksi tercatat lengkap dengan waktu dan IP.</li>
+  </ul>
+ </main>
+ <footer>Pemrograman Web 2025B · Kelompok 2 · Viandra Firzy Dharmayu (25091397073)</footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
