@@ -1,0 +1,16 @@
+<h2>Log aktivitas &amp; keamanan</h2>
+<p class="sub">Telusuri jejak aksi pengguna, lalu coba simulasi penguncian akun setelah 5 kali gagal login.</p>
+<div class="tools">
+ <input id="cari" type="search" placeholder="Cari pengguna atau aksi" aria-label="Cari log">
+ <select id="modul" aria-label="Filter modul"><option value="">Semua modul</option></select>
+ <button class="btn alt" id="ekspor">Ekspor CSV</button>
+</div>
+<div class="scroll"><table><thead><tr><th>Waktu</th><th>Pengguna</th><th>Modul</th><th>Aksi</th><th>IP</th></tr></thead><tbody id="tb"></tbody></table></div>
+<p class="sub" id="jml"></p>
+<h2>Simulasi login gagal</h2>
+<div class="card">
+ <p class="sub">Setiap klik menambah satu percobaan gagal ke log. Pada percobaan ke-5 akun dikunci.</p>
+ <div class="tools"><select id="simUser" aria-label="Akun"><option>25091397055</option><option>adminlab</option></select>
+ <button class="btn" id="gagal">Gagal login</button><button class="btn alt" id="buka">Buka kunci</button></div>
+ <div class="meter"><i id="bar"></i></div><div class="msg ok" id="simMsg">Percobaan gagal: 0 dari 5.</div>
+</div>

@@ -1,0 +1,13 @@
+<h2>Backup &amp; restore database</h2>
+<p class="sub">Buat cadangan data, atur jadwal otomatis, atau pulihkan dari file backup. Setiap aksi tercatat di log.</p>
+<div class="card">
+ <div class="tools">
+  <button class="btn" id="bkNow">Backup sekarang</button>
+  <select id="bkJadwal" aria-label="Jadwal backup otomatis"><option value="mingguan">Otomatis: mingguan</option><option value="harian">Otomatis: harian</option><option value="nonaktif">Otomatis: nonaktif</option></select>
+ </div>
+ <div id="bkMsg" role="status"></div>
+</div>
+<h2>Riwayat backup</h2>
+<div class="scroll"><table><thead><tr><th>File</th><th>Jenis</th><th>Waktu</th><th>Ukuran</th><th>Aksi</th></tr></thead><tbody id="bkTb"></tbody></table></div>
+<h2>Log backup &amp; restore</h2>
+<div class="scroll"><table><thead><tr><th>Waktu</th><th>Pengguna</th><th>Aksi</th></tr></thead><tbody id="bkLog"></tbody></table></div>
