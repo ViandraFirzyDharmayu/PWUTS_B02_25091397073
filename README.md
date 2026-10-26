@@ -3,12 +3,11 @@
 UTS Pemrograman Web – Gasal 2026/2027
 Dosen: Bapak Ari Kurniawan, S.Kom, M.T.
 
-| | |
 |---|---|
 | Nama | Viandra Firzy Dharmayu |
 | NIM | 25091397073 |
 | Kelas | D4 Manajemen Informatika 2025B |
-| Folder repository | `PWUTS_B02_25091397073` |
+| Folder repository | PWUTS_B02_25091397073 |
 
 Topik:
 Website mengacu pada SRS kelompok **"Sistem Peminjaman Alat Pendukung Praktikum dan Mata Kuliah"** Prodi Manajemen Informatika. Sesuai ketentuan UTS yang bersifat mandiri, bagian yang saya kerjakan adalah peran **Admin Sistem**: pengelolaan akun, keamanan, backup/restore, dan log aktivitas (kebutuhan FR-18, FR-23, FR-24, FR-25 di SRS).
